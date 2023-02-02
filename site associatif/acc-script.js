@@ -1,0 +1,6 @@
+gsap.from('.logo', { duration: 1, y: '-100%',opacity: 0, delay: 1, ease: 'bounce' })
+gsap.from('.nom-assos', { duration: 0.5, y: '-100%',opacity: 0, delay: 1 })
+gsap.from('.adresse', { duration: 0.5, y: '-100%',opacity: 0, delay: 1 })
+gsap.from('.links', { duration: 1, opacity: 0, delay: 1, stagger: .3 })
+gsap.from('.icone', { duration: 1, x: '-50', opacity: 0, delay: 1, stagger: .3 })
+gsap.from('.titre', {opacity: 0, delay: 2, duration: 1.5, x: '100vw', ease: 'power2.out' })

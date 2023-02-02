@@ -1,0 +1,162 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=advent+pro|Dancing+Script&display=swap');
+html, body{
+    height: 100%;
+    
+}
+body{
+    background: rgb(128, 116, 86);
+    font-family: advent pro, sans-serif ;
+    display: flex;    /*display flex permet d'acceder à d'autre fonctions qui nous permettrons de parametrer à
+    souhait la position de chaque élément, ici on va utiliser flex direction column et flex-grow au niveau du content*/
+    flex-direction: column;
+   /* background: url(ressources/photo-chat-personne4.jpg)no-repeat fixed;*/
+    background-size: cover;
+       
+}
+nav{
+    display: inline-block;
+    flex-wrap: wrap;
+    background: #c9b6b6;
+    opacity: 0.6;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid rgb(245, 225, 189);
+   /* background: url(ressources/logo-chat-gato2.png)*/
+    
+}
+ a{
+    color: rgb(97, 82, 34);
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 30px 0 0;
+    
+    
+    
+
+}
+
+ a:hover{
+    color: #f1f1f1;
+    transition: 0.2s ease-in-out;
+    
+ }
+ 
+    
+
+    
+ 
+  .adresse{
+    margin-right: 580px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(112, 96, 44);
+    
+ }
+ .link{
+    list-style-type: none;
+    display: flex;
+   /* justify-content: space-between;*/
+   
+    color: #222;
+    text-decoration: none;
+    justify-content: right;
+    
+ }
+ .logo{
+    border: 1px solid black;
+    box-shadow: 1px 2px 2px;
+    margin-left: -1120px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: rgb(111, 153, 26);
+ }
+ .nom-assos{
+   /* border: 2px solid black;*/
+  /* background-color: #ac9f7c;*/
+   font-family: 'Dancing Script', cursive;
+    width: 200px;
+    margin-left: 10px;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: rgb(112, 96, 44);
+ }
+
+
+.content{
+    padding: 50px 0px 0px;
+
+    
+    /*background: royalblue;*/
+
+    flex-grow: 1; /* en mettant la valeur 1 on permet au content d'occuper toute la place*/
+}
+.form{
+    margin-top: 1px;
+    border: 2px solid rgb(224, 212, 99);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #9b8d8d;
+    border-radius: 10px;
+    width:400px;
+    box-shadow: 3px 3px 4px rgb(201, 201, 132);
+
+}
+    
+
+
+.formul-content{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+h2{
+    margin: 10px;
+    color: #f1f1f1;
+}
+input{
+    padding: 10px;
+    box-shadow: 3px 3px 4px rgb(68, 68, 49);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-self: center;
+    width:200px;
+
+}
+.message{
+    padding:30px;
+    text-align: left;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width:200px ;
+    border-radius: 10px;
+    align-self: center;
+}
+button:hover{
+    color: #222;
+    background-color: aqua;
+    transform: scale(1.1);
+    transition: 0.3s ease-out;
+
+}
+footer{
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}

@@ -1,0 +1,159 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=advent+pro|Dancing+Script&display=swap');
+html, body{
+    height: 100%;
+    
+}
+body{
+    background: floralwhite;
+    font-family: advent pro, sans-serif ;
+    display: flex;    /*display flex permet d'acceder à d'autre fonctions qui nous permettrons de parametrer à
+    souhait la position de chaque élément, ici on va utiliser flex direction column et flex-grow au niveau du content*/
+    
+    flex-direction: column;
+   /* background: url(ressources/photo-chat-personne4.jpg)no-repeat fixed;*/
+    background-size: cover;
+       
+}
+nav{
+    display: inline-block;
+    flex-wrap: wrap;
+    
+    background: #c9b6b6;
+    opacity: 0.6;
+    padding: 10px;
+    text-align: center;
+  /*  border-bottom: 3px solid rgb(245, 225, 189);*/
+   /* background: url(ressources/logo-chat-gato2.png)*/
+    
+}
+ a{
+    color: rgb(97, 82, 34);
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 30px 0 0;
+    
+    
+    
+
+}
+
+ a:hover{
+    color:aqua;
+    transition: 0.2s ease-in-out;
+    
+ }
+ 
+    
+
+    
+ 
+  .adresse{
+    margin-right: 580px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(112, 96, 44);
+    
+ }
+ .link{
+    list-style-type: none;
+    display: flex;
+   /* justify-content: space-between;*/
+   
+    color: #222;
+    text-decoration: none;
+    justify-content: right;
+    
+ }
+ .logo{
+    border: 1px solid black;
+    box-shadow: 1px 2px 2px;
+    margin-left: -1120px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: rgb(111, 153, 26);
+ }
+ .nom-assos{
+   /* border: 2px solid black;*/
+  /* background-color: #ac9f7c;*/
+   font-family: 'Dancing Script', cursive;
+    width: 200px;
+    margin-left: 10px;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: rgb(112, 96, 44);
+ }
+
+
+.content{
+    padding: 50px 0px 0px;
+
+    
+    
+
+    flex-grow: 1; /* en mettant la valeur 1 on permet au content d'occuper toute la place*/
+
+}
+h1{
+    text-align: center;
+    color:rgb(194, 117, 16);
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive, sans-serif;
+}
+
+.img-slider{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    
+    
+}
+
+img{
+    width: 600px;
+    height: 450px;
+    margin-top: 0px;
+}
+.portrait{
+    background-color: #f1f1f1;
+    border-bottom: 2px solid yellowgreen;
+    width: 600px;
+}
+/*.img-slider.active{
+    display: block;
+    animation: fade 0.8s;
+}*/
+
+footer{
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+/*.img-slider{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    background: #f3f3f3;
+}
+.img-slider .slide{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+.img-slider .slide img{
+    width: 100%;
+    z-index: 1;
+    border-radius: 5px;
+}
+.img-slider .slide portrait{
+    position: absolute;
+    top: 0;
+    padding: 15px 30px;
+}*/

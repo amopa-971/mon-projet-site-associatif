@@ -1,0 +1,295 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=advent+pro|Dancing+Script&display=swap');
+html, body{
+    height: 100%;
+    
+}
+body{
+    background: #222;
+    font-family: advent pro, sans-serif ;
+    display: flex;    /*display flex permet d'acceder à d'autre fonctions qui nous permettrons de parametrer à
+    souhait la position de chaque élément, ici on va utiliser flex direction column et flex-grow au niveau du content*/
+    flex-direction: column;
+    background: url(ressources/photo-chat-personne4.jpg)no-repeat fixed;
+    background-size: cover;
+       
+}
+nav{
+    display: inline-block;
+    flex-wrap: wrap;
+    
+   /* background: #c9b6b6;*/
+    opacity: 0.6;
+    padding: 10px;
+    text-align: center;
+  /*  border-bottom: 3px solid rgb(245, 225, 189);*/
+   /* background: url(ressources/logo-chat-gato2.png)*/
+    
+}
+ a{
+    color: rgb(97, 82, 34);
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 30px 0 0;
+    
+    
+    
+
+}
+
+ a:hover{
+    color:aqua;
+    transition: 0.2s ease-in-out;
+    
+ }
+ 
+    
+
+    
+ 
+  .adresse{
+    margin-right: 580px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(112, 96, 44);
+    
+ }
+ .link{
+    list-style-type: none;
+    display: flex;
+   /* justify-content: space-between;*/
+   
+    color: #222;
+    text-decoration: none;
+    justify-content: right;
+    
+ }
+ .logo{
+    border: 1px solid black;
+    box-shadow: 1px 2px 2px;
+    margin-left: -1120px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: rgb(111, 153, 26);
+ }
+ .nom-assos{
+   /* border: 2px solid black;*/
+  /* background-color: #ac9f7c;*/
+   font-family: 'Dancing Script', cursive;
+    width: 200px;
+    margin-left: 10px;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: rgb(112, 96, 44);
+ }
+
+
+.content{
+    padding: 125px 0px 0px;
+    
+    /*background: royalblue;*/
+
+    flex-grow: 1; /* en mettant la valeur 1 on permet au content d'occuper toute la place*/
+
+}
+.phrase2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: rgb(240, 240, 111);
+    margin-left: 800px;
+}
+.phrase3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: rgb(219, 219, 126);
+    margin-left: 820px;
+}
+.phrase4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: rgb(179, 179, 92);
+    margin-left: 840px;
+}
+.printcat1{
+margin-top: 5px;
+margin-left: 20px;    
+    transform:rotate(30deg);
+}
+.printcat2{   
+margin-top: 5px;
+    transform: rotate(25deg);
+}
+.printcat3{   
+    margin-top: 5px;
+    margin-left: 20px;
+    transform: rotate(-25deg);
+}
+.printcat4{ 
+      margin-top: 5px;
+      margin-left: 30px;
+    transform: rotate(-25deg);
+}
+h1{
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 3px 4px rgb(245, 194, 194);
+   /* border: 2px solid black;
+    width: 600px;
+    margin-left: 650px;
+    margin-top: 60px;*/
+}
+
+p{
+    font-family:'Dancing Script', cursive ;
+}
+/*****************************section présentation*****************************/
+
+#présentation{
+    border-top: 2px solid rgb(141, 125, 55);
+    margin-top: 300px;
+    height: auto;
+    background-color: rgb(124, 98, 63);
+
+}
+
+.first-textimage{
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-color: #f1f1f1;
+    
+}
+.image1{
+   /* border: 2px solid black;*/
+    width: 500px;
+    height: 350px;
+    margin-top:20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px;
+}
+.text1{
+   /* border: 2px solid black;*/
+    margin-left: 300px;
+    margin-top:20px;
+    width:300px;
+    text-align: center;
+}
+
+.second-textimage{
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: #f1f1f1;
+    
+}
+.image2{
+   /* border: 2px solid black;*/
+    width: 500px;
+    height: 350px;
+    margin-left: 700px;
+    margin-top:-280px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px;
+}
+.text2{
+  /*  border: 2px solid black;*/
+  /*  margin-left: 400px;*/
+    margin-top:20px;
+    margin-left: 120px;
+    width:300px;
+    text-align: center;
+}
+.third-textimage{
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+   /* margin-top: 0px;*/
+    background-color: #f1f1f1;
+    
+}
+.image3{
+   /* border: 2px solid black;*/
+    width: 500px;
+    height: 350px;
+    margin-top:20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px;
+}
+.text3{
+   /* border: 2px solid black;*/
+    margin-left: 300px;
+    margin-top:20px;
+    width:300px;
+    text-align: center;
+}
+/******************************section 2**************************/
+
+#présentation2{
+    border: 2px solid black;
+    margin-top: 0px;
+    height: auto;
+    background-color: #222;
+
+}
+
+.first-textimage2{
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+   /* background-color: #f1f1f1;*/
+    background: url(ressources/chat-noir-et-blanc.jpg) no-repeat fixed;
+    background-size: cover;
+}
+.image4{
+   /* border: 2px solid black;*/
+    width: 500px;
+    height: 350px;
+    margin-top:20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px;
+}
+.text4{
+    
+    margin-left: 300px;
+    margin-top:20px;
+    width:300px;
+    text-align: center;
+    color: #f1f1f1;
+}
+.suscrib{
+    
+    border-radius: 20px;
+    padding: 5px 2px 5px 20px;
+    font-size: 15px;
+    background-color: rgb(0, 255, 64);
+}
+.suscrib:hover{
+    
+  /*  background-color: aqua;*/
+    transform: scale(1.1);
+}
+.back-up{
+    /*border: 2px solid#222;*/
+    
+    padding: 5px 0 0 5px;
+}
+button{
+    border: none;
+    background: transparent;
+}
+footer{
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}
